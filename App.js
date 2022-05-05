@@ -3,6 +3,7 @@ import { View, Text, StyleSheet, ScrollView } from "react-native";
 export default function App() {
   return (
     <View style={styles.container}>
+<<<<<<< HEAD
       <View style={styles.city}>
         <Text style={styles.cityName}>Gyeonggi</Text>
       </View>
@@ -40,6 +41,10 @@ export default function App() {
           <Text style={styles.description}>Sunny</Text>
         </View>
       </ScrollView>
+=======
+      <Text>Hello! I made a ReactNative app! 왜 안바뀌는데? 진챠루?</Text>
+      <StatusBar style="auto" />
+>>>>>>> 7a10f9a3433e57ffdea78f7ea831be6c0c1c4ac1
     </View>
   );
 }

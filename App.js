@@ -10,35 +10,7 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "teal",
-  },
-  city: {
-    flex: 1.2,
-    justifyContent: "center",
-    alignItems: "center",
-  },
-  cityName: {
-    fontSize: 68,
-    fontWeight: "500",
-  },
-  weather: {
-    flex: 1,
-    backgroundColor:"blue",
-  },
-  day: {
-    flex: 1,
-    alignItems: "center",
-  },
-  temp: {
-    marginTop: 50,
-    fontSize: 178,
-  },
-  description: {
-    marginTop: -30,
-    fontSize: 60,
-  },
+
 });
 
 // StatusBar =
